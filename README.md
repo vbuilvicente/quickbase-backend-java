@@ -25,4 +25,9 @@ You may import and run the project within the IDE of your choice or run the foll
 a jar to execute.
 
 From the root dir execute `gradle jar` and then from within the build directory, `java -jar
-build/libs/dev-interview-materials.jar`.
+build/libs/demo-1.0.0.jar`.
+
+To test the API execute the following curl request.
+
+``curl http://localhost:8080/api/v1/country/population
+``
